@@ -26,9 +26,9 @@ def guess():
         message = "Too high!"
     else:
         message = f"Congratulations! You guessed the number {secret_number} in {attempts} attempts."
-        # Optionally, reset the game here or provide a "Play Again" button
+        #  button
 
     return render_template('index.html', message=message)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True) 
